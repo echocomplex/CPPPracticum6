@@ -1,0 +1,14 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.28.3 FATAL_ERROR)
+
+PROJECT(CPPPracticum6)
+
+SET(CMAKE_CXX_STANDARD 23)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+INCLUDE_DIRECTORIES(src/headers)
+
+ADD_EXECUTABLE(
+    Practicum6 src/cpp/main.cpp
+    src/headers/task6_20.h
+    src/cpp/task6_20.cpp
+)
